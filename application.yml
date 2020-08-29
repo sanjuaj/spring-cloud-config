@@ -31,11 +31,11 @@ spring:
 #    show-sql: true
 
 spring:
-  datasource:
+  datasource: 
     platform: 
     url: jdbc:postgresql://localhost:5432/mydb
-    username: 
-    password: 
+    username: postgres
+    password: root
   jpa:
    show-sql: true
    hibernate.ddl-auto: update
